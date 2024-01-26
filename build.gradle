@@ -21,11 +21,12 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 34
+    namespace com.skylineui.updater
 
     defaultConfig {
-        minSdkVersion 27
-        targetSdkVersion 31
+        minSdkVersion 33
+        targetSdkVersion 34
     }
 
 
